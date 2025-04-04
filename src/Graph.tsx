@@ -22,7 +22,9 @@ ChartJS.register(
   LineElement,
   PointElement,
   Legend,
-  Tooltip
+  Tooltip,
+  BarController, // ここで登録
+  LineController
 );
 
 const Graph: React.FC = () => {
